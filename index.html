@@ -1404,7 +1404,7 @@ footer {
         🛒 Add to Cart
       </button>
     </div>
-    <button class="buy-now" onclick="buyNow()">
+    <button class="buy-now" onclick="window.top.location.href='/checkout?variant=YOUR_VARIANT_ID&quantity=' + document.getElementById('qtyNum').innerText">
       ⚡ Buy Now
     </button>
 
